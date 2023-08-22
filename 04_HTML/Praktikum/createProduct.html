@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Product</title>
+</head>
+<body>
+    <h1>Create Product</h1>
+    <h2>Detail Product</h2>
+    <form action="">
+        <!-- Product Name -->
+        <label for="productName">Product name :</label><br>
+        <input type="text" name="productName" id="ProductName" required pattern=".{6,50}" title="Product Name harus memiliki 6-50 huruf"><br>
+
+        <!-- Product Category -->
+        <label for="productCategory">Product Category :</label><br>
+        <select name="productCategory" id="productCategory"></select><br>
+
+        <!-- Product Freshness -->
+        <label for="productFreshness">Product Freshness :</label><br>
+        <input type="radio" name="productFreshness" id="brandNew" required>
+        <label for="brandNew">Brand New</label><br>
+        <input type="radio" name="productFreshness" id="secondHank" required>
+        <label for="secondHank">Second Hank</label><br>
+        <input type="radio" name="productFreshness" id="refurbished" required>
+        <label for="refurbished">Refurbished</label><br>
+
+        <!-- Image of product -->
+        <label for="image">Image of Product</label>
+        <input type="file" name="image" id="image"><br>
+
+        <!-- Description -->
+        <label for="description">Additional Description</label><br>
+        <textarea name="description" id="description" cols="42" rows="10" required></textarea><br>
+
+        <!-- Price -->
+        <label for="price">Price :</label><br>
+        <input type="text" name="" id="" value="$ 100" required pattern="[0-9]+" title="Product Price harus berupa angka"><br>
+        
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>  
+</body>
+</html>
