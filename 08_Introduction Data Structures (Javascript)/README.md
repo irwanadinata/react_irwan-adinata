@@ -17,7 +17,7 @@ RESUME/RINGKASAN MATERI
 <p>Promises adalah cara lain untuk mengelola operasi asinkronus di JavaScript yang lebih modern. Mereka adalah objek yang merepresentasikan hasil dari operasi yang mungkin sudah selesai atau belum. Promises memiliki tiga status: "pending" (tunggu), "resolved" (selesai), atau "rejected" (gagal).</p>
 
 5. Async/Await
-<p>Ini adalah fitur modern yang memudahkan penanganan kode asinkronus dalam cara yang lebih bersih. Anda bisa menggunakan kata kunci async sebelum sebuah fungsi dan await dalam fungsi tersebut untuk menunggu hasil operasi asinkronus.</p>
+<p>Asyncs/Await adalah fitur modern yang memudahkan penanganan kode asinkronus dalam cara yang lebih bersih. Anda bisa menggunakan kata kunci async sebelum sebuah fungsi dan await dalam fungsi tersebut untuk menunggu hasil operasi asinkronus.</p>
 
 6. Error Handling
 <p>Error handling adalah proses mengatasi, mendeteksi, dan menangani kesalahan (error) dalam kode JavaScript. Kesalahan dapat terjadi karena berbagai alasan, seperti kesalahan sintaksis, tipe data yang salah, atau operasi yang tidak valid. Menangani kesalahan dengan benar adalah bagian penting dalam pengembangan aplikasi yang stabil dan dapat diandalkan.</p>
