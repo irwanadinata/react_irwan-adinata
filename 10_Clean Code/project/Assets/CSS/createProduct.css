@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.nav-link {
+    margin-right: 15px;
+}
+
