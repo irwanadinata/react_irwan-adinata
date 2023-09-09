@@ -27,7 +27,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 		validateForm();
 	}
-
 	// validasi untuk input harga produk
 	function validateProductPrice() {
 		const productPrice = productPriceInput.value;
