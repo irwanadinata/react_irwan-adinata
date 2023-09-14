@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/images/Logo.png" alt="Logo" height="60px" width="100px"></a>
+            <div class="d-flex">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row gap-">
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-dark active text-warning" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-dark text-warning" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-dark text-warning" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-dark text-warning" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- content section -->
+    <div class="content text-center pt-5 pb-5 bg-secondary">
+        <h1 class="text-warning">Welcome to Irwan Academy</h1>
+        <p class="text-light pb-5">Pelatihan Untuk Anda Calon Programer Masa Depan</p>
+        <button type="button" class="btn btn-warning">Join Now</button>
+        <p class="text-warning pt-5">Selalu ingat, masa depan teknologi ada di tangan Anda, 
+            dan Irwan Academy siap membantu Anda mencapainya. Bergabunglah dengan kami dan 
+            jadilah bagian dari generasi programmer masa depan</p>
+    </div>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/images/slider/slider1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/slider/slider2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/slider/slider3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Contact Us Section -->
+    <section class="contact-section">
+        <div class="container-fluid bg-secondary">
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="assets/images/people.png" alt="Gambar Kontak" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <div class="text-white p-5">
+                        <h2>Contact Us</h2>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="username">Username:</label>
+                                <input type="text" class="form-control" id="username" name="username" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-warning mt-3">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="assets/images/Logo.png" alt="Logo" class="img-fluid mb-4">
+                    <div class="social-media" >
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 text-light">
+                    <h3 class="mb-4 text-warning">Quick Links</h3>
+                    <ul class="list-unstyled">
+                        <li>Home</li>
+                        <li>Courses</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-light">
+                    <h3 class="mb-4 text-warning">Contact Us</h3>
+                    <p>Email: irwanacademy@gmail.com</p>
+                    <p>Phone: +62 7857 7887 399</p>
+                    <p>Address: Jl. DI Panjaitan No.128, Karangreja, Purwokerto Kidul, Kec. Purwokerto Sel., 
+                        Kabupaten Banyumas, Jawa Tengah 53147</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-light mt-5">
+            <p> &copy; Copyright <span class="text-warning">Irwan Academy</span> All Right Reserved</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
