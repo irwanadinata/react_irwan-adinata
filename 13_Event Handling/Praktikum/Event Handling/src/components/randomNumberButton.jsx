@@ -1,4 +1,3 @@
-// RandomNumberButton.jsx
 import React from "react";
 
 const RandomNumberButton = ({ onClick }) => {
