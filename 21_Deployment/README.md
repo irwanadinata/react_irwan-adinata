@@ -1,4 +1,4 @@
-Link Deployment Vercel=
+Link Deployment Vercel= https://deployment-irwan-react.vercel.app/
 
 
 RINGAKASAN/RESUME MATERI
