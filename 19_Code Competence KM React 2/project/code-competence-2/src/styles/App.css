@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  margin-right: 25px
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+
+.social-media a {
+  color: #fff;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.img-fluid {
+  height: 200px;
+  width: 200px;
+}
